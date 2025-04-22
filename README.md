@@ -4,4 +4,6 @@
 
 Our framework consists of four key steps: data preprocessing, self-supervised learning, classifier fine-tuning, and multi-task training. Each step incrementally builds toward a robust and accurate protein shape predictor, as illustrated in the following figure:
 
-<img src="Figure1.png" alt="GridOut" />
+<div align="center">
+<img src="Figure1.svg" alt="GridOut" width="750px" align="center"/>
+</div>
