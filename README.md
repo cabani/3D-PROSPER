@@ -266,7 +266,7 @@ jupyter nbconvert --to notebook --execute pointnet_enco_deco.ipynb \
 ## **7. Expected Outputs**
 
 * `data/processed/*.npz`: Normalized point clouds `(N, 2048, 3)`
-* `results/ckpt_best.h5`: Best model weights
+* `results/ckpt_best.keras`: Best model weights
 * `results/*.png`: Training curves
 * Console logs:
 
