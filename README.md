@@ -351,6 +351,3 @@ jupyter nbconvert --to notebook --execute pointnet_enco_deco.ipynb \
   --ExecutePreprocessor.timeout=0 --output pointnet_enco_deco_EXECUTED.ipynb
 ```
 
-
-
-Do you want me to **prepare a GitLab submission checklist** (so you don’t miss anything before uploading)? Or should I **generate a zipped final structure** with all these files included?
