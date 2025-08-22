@@ -299,14 +299,7 @@ All experiments were conducted on **Google Colab GPU runtime**:
 
 ---
 
-## **10. Performance Summary**
 
-| Stage         | Time (s) |
-| ------------- | -------- |
-| Preprocessing | 0.242    |
-| Inference     | 0.082    |
-
-Test set size: **2321 proteins**
 
 ---
 
