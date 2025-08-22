@@ -328,26 +328,3 @@ pyvista
 scipy
 ```
 
-**`run.sh`**
-
-```bash
-#!/usr/bin/env bash
-set -euo pipefail
-
-# 1) (Optional) create venv
-# python -m venv .venv && source .venv/bin/activate
-
-# 2) Install dependencies
-pip install -r requirements.txt jupyter
-
-# 3) Ensure directories exist
-mkdir -p data/processed results
-
-# 4) Execute notebooks non-interactively
-jupyter nbconvert --to notebook --execute prepa_données.ipynb \
-  --ExecutePreprocessor.timeout=0 --output prepa_données_EXECUTED.ipynb
-
-jupyter nbconvert --to notebook --execute pointnet_enco_deco.ipynb \
-  --ExecutePreprocessor.timeout=0 --output pointnet_enco_deco_EXECUTED.ipynb
-```
-
